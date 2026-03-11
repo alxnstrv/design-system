@@ -53,6 +53,8 @@ jobs:
           fi
 
       - name: Build Storybook
+        env:
+          VITE_FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
         run: npm run build-storybook
 
       - name: Setup GitHub Pages

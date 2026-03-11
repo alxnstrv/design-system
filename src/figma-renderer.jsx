@@ -6,6 +6,17 @@ const nodeInflight = new Map();
 const imageUrlsCache = new Map(); // fileKey → { imageRef: url }
 const svgExportCache = new Map(); // `${fileKey}:${nodeId}` → url | null
 
+// ── API base URL ──────────────────────────────────────────────────────────────
+// Dev: use Vite proxy at /figma-api (token injected server-side, no CORS issues)
+// Prod: call Figma API directly with VITE_FIGMA_TOKEN baked into the bundle
+const VITE_TOKEN = typeof import.meta !== 'undefined' && import.meta.env?.VITE_FIGMA_TOKEN;
+const API_BASE = VITE_TOKEN ? 'https://api.figma.com' : '/figma-api';
+
+function figmaFetch(path) {
+  const headers = VITE_TOKEN ? { 'X-Figma-Token': VITE_TOKEN } : {};
+  return fetch(`${API_BASE}${path}`, { headers });
+}
+
 // ── Figma API fetchers ────────────────────────────────────────────────────────
 
 function fetchNode(fileKey, nodeId) {
@@ -13,7 +24,7 @@ function fetchNode(fileKey, nodeId) {
   if (nodeCache.has(k)) return Promise.resolve(nodeCache.get(k));
   if (nodeInflight.has(k)) return nodeInflight.get(k);
 
-  const p = fetch(`/figma-api/v1/files/${fileKey}/nodes?ids=${encodeURIComponent(nodeId)}`)
+  const p = figmaFetch(`/v1/files/${fileKey}/nodes?ids=${encodeURIComponent(nodeId)}`)
     .then(r => { if (!r.ok) throw new Error(`Figma API ${r.status}`); return r.json(); })
     .then(d => {
       const node = d.nodes?.[nodeId]?.document ?? null;
@@ -31,7 +42,7 @@ function fetchNode(fileKey, nodeId) {
 async function fetchImageUrls(fileKey) {
   if (imageUrlsCache.has(fileKey)) return imageUrlsCache.get(fileKey);
   try {
-    const r = await fetch(`/figma-api/v1/files/${fileKey}/images`);
+    const r = await figmaFetch(`/v1/files/${fileKey}/images`);
     const d = await r.json();
     const urls = d.meta?.images ?? {};
     imageUrlsCache.set(fileKey, urls);
@@ -65,7 +76,7 @@ async function fetchSvgExports(fileKey, nodeIds) {
 
   for (const { ids, encs } of batches) {
     try {
-      const r = await fetch(`/figma-api/v1/images/${fileKey}?ids=${encs.join(',')}&format=svg&svg_include_id=true`);
+      const r = await figmaFetch(`/v1/images/${fileKey}?ids=${encs.join(',')}&format=svg&svg_include_id=true`);
       if (!r.ok) throw new Error(`${r.status}`);
       const d = await r.json();
       for (const id of ids) {
