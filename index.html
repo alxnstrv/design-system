@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Component Catalog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0c0c0e;
+      --surface: #131316;
+      --surface2: #1a1a1f;
+      --border: rgba(255,255,255,0.07);
+      --accent: #7fff6e;
+      --accent2: #4df0ff;
+      --text: #e8e8f0;
+      --muted: #5a5a6e;
+      --tag: rgba(127,255,110,0.1);
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Syne', sans-serif;
+      min-height: 100vh;
+    }
+
+    /* ---- HEADER ---- */
+    header {
+      padding: 32px 40px 0;
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      background: rgba(12,12,14,0.92);
+      backdrop-filter: blur(16px);
+      z-index: 100;
+    }
+
+    .header-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .logo-dot {
+      width: 10px; height: 10px;
+      background: var(--accent);
+      border-radius: 50%;
+      box-shadow: 0 0 12px var(--accent);
+      animation: pulse 2s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.6; transform: scale(0.8); }
+    }
+
+    .logo h1 {
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    .stats {
+      display: flex;
+      gap: 24px;
+    }
+
+    .stat {
+      text-align: right;
+    }
+
+    .stat-num {
+      font-family: 'DM Mono', monospace;
+      font-size: 18px;
+      font-weight: 500;
+      color: var(--accent);
+    }
+
+    .stat-label {
+      font-size: 10px;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+
+    /* ---- SEARCH & FILTERS ---- */
+    .controls {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding-bottom: 16px;
+    }
+
+    .search-wrap {
+      position: relative;
+      flex: 1;
+      max-width: 360px;
+    }
+
+    .search-icon {
+      position: absolute;
+      left: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--muted);
+      font-size: 13px;
+      pointer-events: none;
+    }
+
+    input[type="search"] {
+      width: 100%;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text);
+      font-family: 'DM Mono', monospace;
+      font-size: 13px;
+      padding: 9px 12px 9px 34px;
+      border-radius: 8px;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    input[type="search"]:focus {
+      border-color: var(--accent);
+    }
+
+    input[type="search"]::placeholder { color: var(--muted); }
+
+    .filter-tabs {
+      display: flex;
+      gap: 4px;
+      overflow-x: auto;
+      flex: 1;
+    }
+
+    .filter-tabs::-webkit-scrollbar { display: none; }
+
+    .tab {
+      padding: 7px 14px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      cursor: pointer;
+      white-space: nowrap;
+      border: 1px solid transparent;
+      color: var(--muted);
+      background: none;
+      transition: all 0.15s;
+    }
+
+    .tab:hover { color: var(--text); border-color: var(--border); }
+    .tab.active { background: var(--accent); color: #0c0c0e; border-color: var(--accent); }
+
+    .generated {
+      font-family: 'DM Mono', monospace;
+      font-size: 10px;
+      color: var(--muted);
+      white-space: nowrap;
+    }
+
+    /* ---- LAYOUT ---- */
+    .main {
+      display: flex;
+      gap: 0;
+    }
+
+    /* ---- SIDEBAR ---- */
+    aside {
+      width: 220px;
+      min-width: 220px;
+      border-right: 1px solid var(--border);
+      padding: 20px 0;
+      height: calc(100vh - 120px);
+      overflow-y: auto;
+      position: sticky;
+      top: 120px;
+    }
+
+    aside::-webkit-scrollbar { width: 3px; }
+    aside::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+
+    .sidebar-label {
+      font-size: 10px;
+      font-weight: 700;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      padding: 0 20px 8px;
+    }
+
+    .sidebar-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 7px 20px;
+      cursor: pointer;
+      font-size: 13px;
+      color: var(--muted);
+      transition: all 0.15s;
+      border-left: 2px solid transparent;
+    }
+
+    .sidebar-item:hover { color: var(--text); background: var(--surface); }
+    .sidebar-item.active { color: var(--accent); border-left-color: var(--accent); background: var(--surface); }
+
+    .sidebar-count {
+      font-family: 'DM Mono', monospace;
+      font-size: 11px;
+      color: var(--muted);
+    }
+
+    /* ---- GRID ---- */
+    .content {
+      flex: 1;
+      padding: 28px 32px;
+      overflow-y: auto;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 12px;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 18px 20px;
+      cursor: pointer;
+      transition: all 0.2s;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, var(--accent), var(--accent2));
+      opacity: 0;
+      transition: opacity 0.2s;
+    }
+
+    .card:hover {
+      border-color: rgba(127,255,110,0.2);
+      background: var(--surface2);
+      transform: translateY(-1px);
+    }
+
+    .card:hover::before { opacity: 1; }
+
+    .card-name {
+      font-size: 15px;
+      font-weight: 700;
+      margin-bottom: 4px;
+      color: var(--text);
+    }
+
+    .card-kit {
+      font-size: 11px;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      margin-bottom: 14px;
+      font-weight: 600;
+    }
+
+    .card-meta {
+      display: flex;
+      gap: 16px;
+    }
+
+    .meta-item {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .meta-num {
+      font-family: 'DM Mono', monospace;
+      font-size: 16px;
+      font-weight: 500;
+      color: var(--text);
+    }
+
+    .meta-label {
+      font-size: 10px;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    /* ---- COMPONENT CARD ---- */
+    .comp-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      cursor: default;
+      transition: all 0.2s;
+    }
+
+    .comp-card:hover {
+      border-color: rgba(127,255,110,0.2);
+      background: var(--surface2);
+    }
+
+    .comp-thumb {
+      width: 100%;
+      aspect-ratio: 16/9;
+      background: var(--surface2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .comp-thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      padding: 12px;
+    }
+
+    .comp-thumb-placeholder {
+      font-size: 28px;
+      opacity: 0.15;
+    }
+
+    .comp-body {
+      padding: 14px 16px;
+    }
+
+    .comp-name {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 10px;
+      line-height: 1.3;
+    }
+
+    .props {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+    }
+
+    .prop {
+      display: flex;
+      align-items: center;
+      gap: 3px;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 2px 7px;
+      font-family: 'DM Mono', monospace;
+      font-size: 10px;
+    }
+
+    .prop-key {
+      color: var(--muted);
+    }
+
+    .prop-val {
+      color: var(--accent2);
+    }
+
+    .comp-desc {
+      margin-top: 8px;
+      font-size: 11px;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    /* ---- BREADCRUMB ---- */
+    .breadcrumb {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 0 0 20px;
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .breadcrumb-link {
+      cursor: pointer;
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .breadcrumb-link:hover { text-decoration: underline; }
+    .breadcrumb-sep { opacity: 0.4; }
+
+    /* ---- DETAIL VIEW ---- */
+    .detail-layout {
+      grid-column: 1/-1;
+      display: grid;
+      grid-template-columns: 260px 1fr;
+      gap: 16px;
+      align-items: start;
+    }
+
+    .controls-panel {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+      position: sticky;
+      top: 160px;
+    }
+
+    .controls-title {
+      font-size: 10px;
+      font-weight: 700;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      margin-bottom: 18px;
+    }
+
+    .control-group { margin-bottom: 18px; }
+
+    .control-label {
+      font-size: 10px;
+      font-weight: 700;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 7px;
+    }
+
+    .control-options { display: flex; flex-wrap: wrap; gap: 5px; }
+
+    .control-btn {
+      padding: 4px 11px;
+      border-radius: 6px;
+      font-size: 11px;
+      font-family: 'DM Mono', monospace;
+      cursor: pointer;
+      border: 1px solid var(--border);
+      background: none;
+      color: var(--muted);
+      transition: all 0.15s;
+    }
+
+    .control-btn:hover { color: var(--text); border-color: rgba(255,255,255,0.2); }
+    .control-btn.active { background: var(--accent); color: #0c0c0e; border-color: var(--accent); }
+
+    .preview-panel {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      min-height: 320px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .preview-panel img {
+      max-width: 100%;
+      max-height: 560px;
+      object-fit: contain;
+      padding: 32px;
+    }
+
+    .preview-placeholder {
+      font-size: 56px;
+      opacity: 0.08;
+    }
+
+    .variants-section {
+      grid-column: 1/-1;
+      margin-top: 8px;
+    }
+
+    .variants-header {
+      font-size: 10px;
+      font-weight: 700;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      padding: 20px 0 12px;
+    }
+
+    .variants-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 8px;
+    }
+
+    .variant-thumb {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+
+    .variant-thumb:hover { border-color: rgba(127,255,110,0.3); }
+    .variant-thumb.active { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
+
+    .variant-thumb-img {
+      width: 100%;
+      aspect-ratio: 4/3;
+      object-fit: contain;
+      padding: 8px;
+      background: var(--surface2);
+      display: block;
+    }
+
+    .variant-thumb-placeholder {
+      width: 100%;
+      aspect-ratio: 4/3;
+      background: var(--surface2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      opacity: 0.1;
+    }
+
+    .variant-thumb-label {
+      padding: 6px 8px;
+      font-size: 9px;
+      font-family: 'DM Mono', monospace;
+      color: var(--muted);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    @media (max-width: 860px) {
+      .detail-layout { grid-template-columns: 1fr; }
+      .controls-panel { position: static; }
+    }
+
+    .empty {
+      grid-column: 1/-1;
+      text-align: center;
+      padding: 80px 20px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .empty span {
+      display: block;
+      font-size: 32px;
+      margin-bottom: 12px;
+    }
+
+    /* ---- VERSION BADGE ---- */
+    .version-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--tag);
+      border: 1px solid rgba(127,255,110,0.2);
+      color: var(--accent);
+      font-family: 'DM Mono', monospace;
+      font-size: 11px;
+      padding: 4px 10px;
+      border-radius: 20px;
+    }
+
+    @media (max-width: 768px) {
+      header { padding: 20px 16px 0; }
+      .stats { gap: 16px; }
+      aside { display: none; }
+      .content { padding: 16px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-top">
+    <div class="logo">
+      <div class="logo-dot"></div>
+      <h1 id="catalog-title">Component Catalog</h1>
+    </div>
+    <div style="display:flex;align-items:center;gap:24px">
+      <div class="stats">
+        <div class="stat">
+          <div class="stat-num" id="stat-components">—</div>
+          <div class="stat-label">components</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num" id="stat-sets">—</div>
+          <div class="stat-label">sets</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num" id="stat-categories">—</div>
+          <div class="stat-label">categories</div>
+        </div>
+      </div>
+      <div class="version-badge" id="version-badge">
+        <span>●</span>
+        <span id="gen-time">loading...</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="controls">
+    <div class="search-wrap">
+      <span class="search-icon">⌕</span>
+      <input type="search" id="search" placeholder="Search components..." autocomplete="off"/>
+    </div>
+    <div class="filter-tabs" id="filter-tabs"></div>
+    <div class="generated" id="generated-at"></div>
+  </div>
+</header>
+
+<div class="main">
+  <aside id="sidebar"></aside>
+
+  <div class="content">
+    <div class="grid" id="grid"></div>
+  </div>
+</div>
+
+<script>
+let allCategories = [];
+let activeCategory = 'all';
+let searchQuery = '';
+let activeCompKey = null;
+let selectedProps = {};
+
+async function loadData() {
+  try {
+    const res = await fetch('./data.json');
+    if (!res.ok) throw new Error('data.json not found');
+    return await res.json();
+  } catch(e) {
+    return { generated_at: new Date().toISOString(), total_components: 0, total_sets: 0, files: [] };
+  }
+}
+
+function formatTime(iso) {
+  const d = new Date(iso);
+  return d.toLocaleDateString('ru-RU', { day:'2-digit', month:'short', year:'numeric', hour:'2-digit', minute:'2-digit' });
+}
+
+function renderSidebar(categories) {
+  const el = document.getElementById('sidebar');
+  const total = categories.reduce((s, c) => s + c.components.length, 0);
+  const items = [
+    { id: 'all', label: 'All Components', count: total },
+    ...categories.map(c => ({ id: c.name, label: c.name, count: c.components.length }))
+  ];
+  el.innerHTML = `<div class="sidebar-label">Categories</div>` +
+    items.map(item => `
+      <div class="sidebar-item ${activeCategory === item.id ? 'active' : ''}"
+           onclick="setCategory('${item.id.replace(/'/g,"\\'")}')">
+        <span>${item.label}</span>
+        <span class="sidebar-count">${item.count}</span>
+      </div>
+    `).join('');
+}
+
+// ---- Props helpers ----
+
+function parseProps(name) {
+  const pairs = name.match(/([^,=/\s][^,=]*)=([^,/]+)/g);
+  if (!pairs) return [];
+  return pairs.map(p => {
+    const [k, ...v] = p.split('=');
+    return { key: k.trim(), val: v.join('=').trim() };
+  });
+}
+
+function getAllPropOptions(components) {
+  const map = {};
+  for (const comp of components) {
+    for (const { key, val } of parseProps(comp.name)) {
+      if (!map[key]) map[key] = [];
+      if (!map[key].includes(val)) map[key].push(val);
+    }
+  }
+  return map;
+}
+
+function findVariant(components, selProps) {
+  const keys = Object.keys(selProps);
+  if (!keys.length) return components[0];
+  return components.find(comp => {
+    const pm = Object.fromEntries(parseProps(comp.name).map(p => [p.key, p.val]));
+    return keys.every(k => pm[k] === selProps[k]);
+  }) || components[0];
+}
+
+// ---- Detail view ----
+
+function openDetail(compKey, catOverride) {
+  if (catOverride) activeCategory = catOverride;
+  let cat = allCategories.find(c => c.name === activeCategory);
+  // fallback: find the category that contains this component
+  if (!cat || !cat.components.find(c => c.key === compKey)) {
+    cat = allCategories.find(c => c.components.some(c => c.key === compKey));
+    if (cat) activeCategory = cat.name;
+  }
+  if (!cat) return;
+  const comp = cat.components.find(c => c.key === compKey);
+  if (!comp) return;
+  selectedProps = Object.fromEntries(parseProps(comp.name).map(p => [p.key, p.val]));
+  activeCompKey = compKey;
+  renderSidebar(allCategories);
+  renderGrid(allCategories);
+}
+
+function closeDetail() {
+  activeCompKey = null;
+  selectedProps = {};
+  renderGrid(allCategories);
+}
+
+function selectProp(key, val) {
+  selectedProps[key] = val;
+  const cat = allCategories.find(c => c.name === activeCategory);
+  if (!cat) return;
+  const matched = findVariant(cat.components, selectedProps);
+  if (matched) activeCompKey = matched.key;
+  renderDetailView(cat);
+}
+
+function renderDetailView(cat) {
+  const content = document.querySelector('.content');
+  const grid = document.getElementById('grid');
+
+  // breadcrumb
+  let bc = content.querySelector('.breadcrumb');
+  if (!bc) { bc = document.createElement('div'); bc.className = 'breadcrumb'; content.insertBefore(bc, grid); }
+  bc.innerHTML = `
+    <span class="breadcrumb-link" onclick="setCategory('all')">All</span>
+    <span class="breadcrumb-sep">›</span>
+    <span class="breadcrumb-link" onclick="closeDetail()">${cat.name}</span>
+    <span class="breadcrumb-sep">›</span>
+    <span>${(cat.components.find(c => c.key === activeCompKey) || cat.components[0]).name.split(',')[0]}</span>
+  `;
+
+  const propOptions = getAllPropOptions(cat.components);
+  const currentComp = cat.components.find(c => c.key === activeCompKey) || cat.components[0];
+  const hasThumb = currentComp.thumbnail_url && currentComp.thumbnail_url.length > 0;
+
+  grid.innerHTML = `
+    <div class="detail-layout">
+      <div class="controls-panel">
+        <div class="controls-title">Controls</div>
+        ${Object.entries(propOptions).map(([key, vals]) => `
+          <div class="control-group">
+            <div class="control-label">${key}</div>
+            <div class="control-options">
+              ${vals.map(val => `
+                <button class="control-btn ${selectedProps[key] === val ? 'active' : ''}"
+                        onclick="selectProp('${key.replace(/'/g,"\\'")}','${val.replace(/'/g,"\\'")}')">
+                  ${val}
+                </button>`).join('')}
+            </div>
+          </div>`).join('')}
+        ${currentComp.description ? `<div style="margin-top:4px;padding-top:16px;border-top:1px solid var(--border);font-size:11px;color:var(--muted);line-height:1.6">${currentComp.description}</div>` : ''}
+      </div>
+      <div class="preview-panel" id="preview-panel">
+        ${hasThumb
+          ? `<img src="${currentComp.thumbnail_url}" alt="${currentComp.name}">`
+          : `<span class="preview-placeholder">⬜</span>`}
+      </div>
+    </div>
+    <div class="variants-section">
+      <div class="variants-header">All variants · ${cat.components.length}</div>
+      <div class="variants-grid">
+        ${cat.components.map(comp => {
+          const isActive = comp.key === activeCompKey;
+          const t = comp.thumbnail_url;
+          return `
+            <div class="variant-thumb ${isActive ? 'active' : ''}" onclick="openDetail('${comp.key}')">
+              ${t ? `<img class="variant-thumb-img" src="${t}" alt="${comp.name}" loading="lazy">`
+                  : `<div class="variant-thumb-placeholder">⬜</div>`}
+              <div class="variant-thumb-label">${comp.name}</div>
+            </div>`;
+        }).join('')}
+      </div>
+    </div>
+  `;
+}
+
+// ---- Grid views ----
+
+function renderCompCard(comp) {
+  const props = parseProps(comp.name);
+  const hasThumb = comp.thumbnail_url && comp.thumbnail_url.length > 0;
+  return `
+    <div class="comp-card" onclick="openDetail('${comp.key}', '${(comp._cat || activeCategory).replace(/'/g,"\\'")}')">
+      <div class="comp-thumb">
+        ${hasThumb
+          ? `<img src="${comp.thumbnail_url}" alt="${comp.name}" loading="lazy">`
+          : `<span class="comp-thumb-placeholder">⬜</span>`}
+      </div>
+      <div class="comp-body">
+        <div class="comp-name">${comp.name}</div>
+        ${props.length ? `<div class="props">${props.map(p => `
+          <span class="prop">
+            <span class="prop-key">${p.key}</span>
+            <span style="color:var(--muted);margin:0 1px">=</span>
+            <span class="prop-val">${p.val}</span>
+          </span>`).join('')}</div>` : ''}
+        ${comp.description ? `<div class="comp-desc">${comp.description}</div>` : ''}
+      </div>
+    </div>`;
+}
+
+function renderGrid(categories) {
+  const grid = document.getElementById('grid');
+  const content = document.querySelector('.content');
+
+  // Detail view
+  if (activeCompKey) {
+    const cat = categories.find(c => c.name === activeCategory);
+    if (cat) renderDetailView(cat);
+    return;
+  }
+
+  // Search
+  if (searchQuery) {
+    const q = searchQuery.toLowerCase();
+    const matches = categories.flatMap(c =>
+      c.components
+        .filter(comp => comp.name.toLowerCase().includes(q) || c.name.toLowerCase().includes(q))
+        .map(comp => ({ ...comp, _cat: c.name }))
+    );
+    const bc = content.querySelector('.breadcrumb');
+    if (bc) bc.remove();
+    grid.innerHTML = matches.length
+      ? matches.slice(0, 120).map(comp => renderCompCard(comp)).join('')
+      : `<div class="empty"><span>◌</span>Nothing found for "${searchQuery}"</div>`;
+    return;
+  }
+
+  // Category drill-down — component grid
+  if (activeCategory !== 'all') {
+    const cat = categories.find(c => c.name === activeCategory);
+    if (!cat) return;
+    let bc = content.querySelector('.breadcrumb');
+    if (!bc) { bc = document.createElement('div'); bc.className = 'breadcrumb'; content.insertBefore(bc, grid); }
+    bc.innerHTML = `
+      <span class="breadcrumb-link" onclick="setCategory('all')">All</span>
+      <span class="breadcrumb-sep">›</span>
+      <span>${cat.name}</span>
+      <span class="breadcrumb-sep">·</span>
+      <span style="font-family:'DM Mono',monospace">${cat.components.length} components</span>`;
+    grid.innerHTML = cat.components.map(comp => renderCompCard(comp)).join('');
+    return;
+  }
+
+  // Category overview
+  const bc = content.querySelector('.breadcrumb');
+  if (bc) bc.remove();
+  grid.innerHTML = categories.map(cat => `
+    <div class="card" onclick="setCategory('${cat.name.replace(/'/g,"\\'")}')">
+      <div class="card-name">${cat.name}</div>
+      <div class="card-kit">${cat.source || 'UI Kit'}</div>
+      <div class="card-meta">
+        <div class="meta-item"><span class="meta-num">${cat.sets}</span><span class="meta-label">sets</span></div>
+        <div class="meta-item"><span class="meta-num">${cat.components.length}</span><span class="meta-label">components</span></div>
+        <div class="meta-item"><span class="meta-num">${cat.standalone}</span><span class="meta-label">standalone</span></div>
+      </div>
+    </div>`).join('');
+}
+
+function setCategory(id) {
+  activeCategory = id;
+  activeCompKey = null;
+  selectedProps = {};
+  renderSidebar(allCategories);
+  renderGrid(allCategories);
+}
+
+async function init() {
+  const data = await loadData();
+  allCategories = data.categories || (data.files || []).flatMap(f => f.categories || []);
+
+  document.getElementById('stat-components').textContent = data.total_components.toLocaleString();
+  document.getElementById('stat-sets').textContent = data.total_sets.toLocaleString();
+  document.getElementById('stat-categories').textContent = allCategories.length;
+  document.getElementById('gen-time').textContent = formatTime(data.generated_at);
+  document.getElementById('generated-at').textContent = 'Updated ' + formatTime(data.generated_at);
+
+  const tabs = [
+    { id: 'all', label: 'All' },
+    ...allCategories
+      .filter((c, i, arr) => arr.findIndex(x => x.name[0] === c.name[0]) === i)
+      .map(c => ({ id: `letter_${c.name[0]}`, label: c.name[0].toUpperCase() }))
+  ];
+  document.getElementById('filter-tabs').innerHTML = tabs.slice(0, 12).map(t => `
+    <button class="tab ${t.id === 'all' ? 'active' : ''}" onclick="setCategory('${t.id}')">${t.label}</button>
+  `).join('');
+
+  renderSidebar(allCategories);
+  renderGrid(allCategories);
+
+  document.getElementById('search').addEventListener('input', e => {
+    searchQuery = e.target.value.trim();
+    activeCompKey = null;
+    renderGrid(allCategories);
+  });
+}
+
+init();
+</script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "DS Index",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["serve", "-p", "8765", "."],
+      "port": 8765
+    },
+    {
+      "name": "Storybook",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "storybook"],
+      "port": 6006
+    }
+  ]
+}
