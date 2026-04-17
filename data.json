@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T07:16:34.792Z",
+  "generated_at": "2026-04-17T07:16:46.985Z",
   "version": "DS 4.0",
   "total_components": 4432,
   "total_sets": 267,
@@ -20013,7 +20013,7 @@
               "key": "af91b751f5b3b0263053efc2a22c800bdcb58409",
               "node_id": "7945:26838",
               "name": "Device=desktop, State=default, Multiselect=false, Type=Default",
-              "description": "Ипользуется для Background Gray",
+              "description": "��пользуется для Background Gray",
               "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/6VW/NXs/7GEdYSZZse8SqAca/7945_26838.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWC4EJV4ZNX%2F20260416%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260416T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=1e73747c05a91ef127ceaeadb18c021c421f3e6b269c2d276f58881e4b38084e"
             },
             {
@@ -28469,7 +28469,7 @@
             {
               "key": "0a36719e3be3483ef1794df00f919a31b4a897df",
               "node_id": "9814:147091",
-              "name": "🖥️ Breakpoint=1024, ↕��� Image position=right, Size=XS",
+              "name": "🖥️ Breakpoint=1024, ↕️ Image position=right, Size=XS",
               "description": "",
               "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/I6V/AHk/WOc36kA7SfZtx9ew/9814_147091.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWC4EJV4ZNX%2F20260416%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260416T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=d7034e55b746f43fc8e9c7db42ef61253a6cd7dd8b64a0e5363a283c54a68f00"
             },
