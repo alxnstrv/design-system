@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T07:57:55.816Z",
+  "generated_at": "2026-05-02T07:16:49.569Z",
   "version": "DS 4.0",
   "total_components": 4463,
   "total_sets": 271,
@@ -8756,7 +8756,7 @@
               "key": "6711aadd50e9195a9fd867c2677e4c7e9c5037a0",
               "node_id": "4107:6541",
               "name": "Device=desktop, State=hover, Multiselect=true, Type=Default",
-              "description": "Ипользуется для Background White",
+              "description": "Ипользу��тся для Background White",
               "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/rSI/W6d/nIL3rbZZi2VlkYhu/4107_6541.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCQN7MY4DL%2F20260430%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260430T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=fa51e567262b3558b61f029aa0eda95d5569a492a7cab5f35144d50b99ccc615"
             },
             {
@@ -27544,7 +27544,7 @@
               "key": "74798bcfb700b7bc85177e9bec4c67c498e1d598",
               "node_id": "10639:24438",
               "name": "State=ErrorClose, Device=Desktop, Type=Stroke",
-              "description": "Ип��льзуется для Background Gray",
+              "description": "Ипользуется для Background Gray",
               "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/DvJ/8MQ/tMY4xMIWAdxbGFb6/10639_24438.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCQN7MY4DL%2F20260430%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260430T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=7e69f942968dc0e34227a0b84c1116414d75ee77f4640bc87105ff3e60ab94df"
             },
             {
