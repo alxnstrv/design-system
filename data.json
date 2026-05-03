@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-02T07:16:49.569Z",
+  "generated_at": "2026-05-03T07:44:03.859Z",
   "version": "DS 4.0",
   "total_components": 4463,
   "total_sets": 271,
@@ -8756,7 +8756,7 @@
               "key": "6711aadd50e9195a9fd867c2677e4c7e9c5037a0",
               "node_id": "4107:6541",
               "name": "Device=desktop, State=hover, Multiselect=true, Type=Default",
-              "description": "Ипользу��тся для Background White",
+              "description": "Ипользуется для Background White",
               "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/rSI/W6d/nIL3rbZZi2VlkYhu/4107_6541.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCQN7MY4DL%2F20260430%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260430T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=fa51e567262b3558b61f029aa0eda95d5569a492a7cab5f35144d50b99ccc615"
             },
             {
