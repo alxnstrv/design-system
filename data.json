@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-09T07:29:29.062Z",
+  "generated_at": "2026-05-10T07:53:01.946Z",
   "version": "DS 4.0",
   "total_components": 4507,
   "total_sets": 271,
@@ -18772,7 +18772,7 @@
               "key": "5b6927ad6979aef4f804e84c4e6a0f3a9c554271",
               "node_id": "7945:30007",
               "name": "Device=mobile, State=Typing, Type=Default",
-              "description": "��пользуется для Background Gray",
+              "description": "Ипользуется для Background Gray",
               "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/rdx/iVx/sPaBQzvpkhwjPH5X/7945_30007.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCY64QTLLE%2F20260507%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260507T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=613100df97957096c7b0b75e6b69a27b49d71c4ca1d01e74c7db55c3ed2ab2d4"
             },
             {
@@ -22274,7 +22274,7 @@
               "key": "d88f6c8a53faeb705f2a144de9493f32c93edf77",
               "node_id": "7945:25314",
               "name": "Device=desktop, State=Filled, Type=Grey",
-              "description": "Иполь��уется для Background Gray",
+              "description": "Ипользуется для Background Gray",
               "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/wxT/W5p/rKq7XxqOiaShWwXA/7945_25314.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCY64QTLLE%2F20260507%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260507T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=491725754183c108f9f345cab75e6b1ac080d2ee488150cc989190b83e9a66d4"
             },
             {
@@ -22400,7 +22400,7 @@
               "key": "c13a8430f7295f24fb011a5392500aec3078e3de",
               "node_id": "5862:17031",
               "name": "Device=desktop, State=hover, Type=Grey",
-              "description": "Ипользуется для Background White",
+              "description": "Иполь��уется для Background White",
               "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/Awu/adn/uYM5PILVu0bQLaw9/5862_17031.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCY64QTLLE%2F20260507%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260507T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=98f49e8decb2da56363816823c152f081f6974fbf3d90a461fd2107a0e4cbfc5"
             },
             {
