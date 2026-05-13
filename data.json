@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T08:19:28.824Z",
+  "generated_at": "2026-05-13T08:30:00.443Z",
   "version": "DS 4.0",
   "total_components": 4521,
   "total_sets": 271,
@@ -27805,7 +27805,7 @@
               "key": "110bc6bdf44f21646921e9fe1ac300de9fd10afe",
               "node_id": "10639:24322",
               "name": "State=Filled, Device=Desktop, Type=Stroke",
-              "description": "И��ользуется для Background Gray",
+              "description": "Ипользуется для Background Gray",
               "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/ze1/m9b/NQvWonRq2j9jIWcZ/10639_24322.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCRCUFAVOU%2F20260510%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260510T120000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=d897e9f4bfb0293aa5bc41eb8939ef4a3e3b0073ec6633c62be6dfa582f31dff"
             },
             {
