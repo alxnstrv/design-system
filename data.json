@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-30T08:13:13.057Z",
+  "generated_at": "2026-05-31T08:31:57.417Z",
   "version": "DS 4.0",
   "total_components": 4762,
   "total_sets": 280,
@@ -2777,7 +2777,7 @@
               "key": "92fc100ad39ccacbc18e15eee409af2daa88e636",
               "node_id": "7945:25615",
               "name": "Device=desktop, State=Filled, Type=Grey",
-              "description": "Ипользует��я для Background Gray",
+              "description": "Ипользуется для Background Gray",
               "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/Ejq/74A/cPYRNQDT7zh0m1bE/7945_25615.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWC5PYDOGN2%2F20260528%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260528T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=638019b3ae241cc74f6f37286b041eb2bc563cf24002ff8a23b19bf4f5a4e114"
             },
             {
@@ -16710,6 +16710,13 @@
               "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/APr/Dfj/gULxYRSOqLjvUt2O/5847_18140.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWC5PYDOGN2%2F20260528%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260528T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=6925111fc1ac67c4f30c227d8a13229cf2d313ad08431dec38020d6f5bb1f1ae"
             },
             {
+              "key": "65d2287721f1b12945b7a5537adb5c90d3414288",
+              "node_id": "5847:18209",
+              "name": "Device=mobile, State=Error",
+              "description": "",
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/p8H/rTG/qUguw4mZhZ6gyfcb/5847_18209.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWC5PYDOGN2%2F20260528%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260528T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=afdfa0d339a851235a2df266dbbc4be690b9e9d5468a4479c4e52e601cca60d7"
+            },
+            {
               "key": "661f313d41acda71984d2b391fbe3f76c8bba3ee",
               "node_id": "5847:18172",
               "name": "Device=desktop, State=Error",
@@ -16760,23 +16767,7 @@
             }
           ],
           "sets": 3,
-          "standalone": 16,
-          "source": "Tokens & Atoms"
-        },
-        {
-          "name": "Input Range Component (архивный ) ���",
-          "file_key": "cXSRA1TTtSxE7w8QA2VQud",
-          "components": [
-            {
-              "key": "65d2287721f1b12945b7a5537adb5c90d3414288",
-              "node_id": "5847:18209",
-              "name": "Device=mobile, State=Error",
-              "description": "",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/p8H/rTG/qUguw4mZhZ6gyfcb/5847_18209.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWC5PYDOGN2%2F20260528%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260528T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=afdfa0d339a851235a2df266dbbc4be690b9e9d5468a4479c4e52e601cca60d7"
-            }
-          ],
-          "sets": 0,
-          "standalone": 1,
+          "standalone": 17,
           "source": "Tokens & Atoms"
         },
         {
