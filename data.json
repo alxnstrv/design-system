@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T09:39:44.177Z",
+  "generated_at": "2026-06-05T09:24:22.337Z",
   "version": "DS 4.0",
   "total_components": 4794,
   "total_sets": 281,
@@ -8835,7 +8835,7 @@
               "key": "f8071d11a7594dff54cb5b57a7c6d44fb6ee40fc",
               "node_id": "7945:25709",
               "name": "Device=desktop, State=default, Multiselect=false, Type=Grey",
-              "description": "Ип��льзуется для Background Gray",
+              "description": "Ипользуется для Background Gray",
               "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/5aR/x8z/HpQ7VBlmB7tCpt9R/7945_25709.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=0ae77b0d235318219b6e98879b3ddc623d9070c82eda1d28a81b1c3969878b70"
             },
             {
@@ -19922,20 +19922,6 @@
           "file_key": "cXSRA1TTtSxE7w8QA2VQud",
           "components": [
             {
-              "key": "1a72d0ee2d9ec134b181d3f0b67306c4fb526559",
-              "node_id": "5635:31377",
-              "name": "Device=Mobile",
-              "description": "",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/5H3/y2q/wQ8RloKx07QZsZRW/5635_31377.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=f3f1eb2f37056132dd42cd2d4319c81f6f73f834167880c4df4326512d2b95dd"
-            },
-            {
-              "key": "e8c902cda19a449356556af7f27a8c191b2bd6ae",
-              "node_id": "5635:31378",
-              "name": "Device=Desktop",
-              "description": "",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/pDc/YZx/8b9UvLJ2yDzZJnAI/5635_31378.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=7527816bc6fac436fa275cbb3ec79b818c912ce5a8284056c752893731e7a347"
-            },
-            {
               "key": "289dacef610ff7604f1eaace16f87d715bbadabc",
               "node_id": "5635:32053",
               "name": "Device=Desktop, Property=1",
@@ -19990,6 +19976,20 @@
               "name": "Device=Mobile, Property=4",
               "description": "",
               "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/oYx/AXR/wUXE5X5P8W4BCEOw/5635_32077.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=7414920d11a79f662916ec978b55563a0dd7a987b8cb6100fbdb2fee22b658b2"
+            },
+            {
+              "key": "1a72d0ee2d9ec134b181d3f0b67306c4fb526559",
+              "node_id": "5635:31377",
+              "name": "Device=Mobile",
+              "description": "",
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/jRX/RsQ/kwhJgXl6vLJi8gcu/5635_31377.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=7caf430441c259c9bf4eb3005ccf732be2d55c971afedf1f8d37622eaf9ed8fb"
+            },
+            {
+              "key": "e8c902cda19a449356556af7f27a8c191b2bd6ae",
+              "node_id": "5635:31378",
+              "name": "Device=Desktop",
+              "description": "",
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/06y/8vh/uiObUfeurkGMr3Rx/5635_31378.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=9b1149ba43704688dfea9b337abac05b87135a22da540f716a05591cd741489d"
             }
           ],
           "sets": 2,
@@ -20013,125 +20013,6 @@
               "name": "Device=mobile, State=Active, Type=Default",
               "description": "Ипользуется для Background Gray",
               "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/PFY/Xe4/HrKJeNVWVEuydELx/7945_30025.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b7bc06a628a7ff5bb056604f4e34b3e1f313d3b989211ff097e0554b1ba385f6"
-            },
-            {
-              "key": "14ab1fad978284fcaf95c8793c706c0a5fc7c11e",
-              "node_id": "2263:7451",
-              "name": "Device=mobile, State=Filled, Type=Default",
-              "description": "Ипользуется для Background Gray",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/j1j/tdQ/Oi3KYbYPaOvJuRet/2263_7451.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=39f4f46af06d0158dc1e099e4745f600c7e422e15f33e531e07063143798319b"
-            },
-            {
-              "key": "185cc9cd86f890e31b965838317f8b2899032d29",
-              "node_id": "5877:21647",
-              "name": "Device=desktop, State=NonActive, Type=Grey",
-              "description": "Ипользуется для Background Gray",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/12T/NnK/DE9ha3t9ueOoTrhY/5877_21647.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=19b71f19e91789baff54b6c987cd8a591848f148a7aed4c73cfe89fb34c3ab91"
-            },
-            {
-              "key": "38336ff29b97be1eba40266bab40da00d9ccb878",
-              "node_id": "2263:7376",
-              "name": "Device=desktop, State=NonActive, Type=Default",
-              "description": "Ипользуется для Background Gray",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/w4a/4xB/ex3krXR2kgLSXMGe/2263_7376.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=752231690b982afe8414cf1e151fa14caff2b69a44e7a71df254bef612a4ecb1"
-            },
-            {
-              "key": "554991b1bdac62cd646a9186854af8e24775310c",
-              "node_id": "2263:7462",
-              "name": "Device=mobile, State=Error, Type=Default",
-              "description": "Ипользуется для Background Gray",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/Q6k/fte/x9Azk53p1gSCLAPg/2263_7462.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=040b7a7c9fe2e7b5fcb889804c167eca9889d3e23e26d761708bad847836a1fd"
-            },
-            {
-              "key": "7a3115309c1f441c968e0fcf18e7df366f136386",
-              "node_id": "5877:21654",
-              "name": "Device=desktop, State=Typing, Type=Grey",
-              "description": "Ипользуется для Background Gray",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/QZo/lM6/Q6iH425zEYQg43Yu/5877_21654.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=627e3a84ae3cd50e16aca71feec4c031703d236a473eadc54815229326b2f231"
-            },
-            {
-              "key": "82005acf6531779a2bb3fc49e2a7f66832892faa",
-              "node_id": "5877:21633",
-              "name": "Device=desktop, State=Error, Type=Grey",
-              "description": "Ипользуется для Background Gray",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/p6u/6Mr/w2iFeMuX9R4mreKZ/5877_21633.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=8e5ce17446a99ac2bf6a95dda6210feadb6aca96ead7d8b8115ee222d52c52dd"
-            },
-            {
-              "key": "8ade46d1d37072dafea7e4b96250b53f935c196e",
-              "node_id": "4370:18212",
-              "name": "Device=desktop, State=Active, Type=Default",
-              "description": "Ипользуется для Background Gray",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/V6N/4Me/BGmu328gYj6FkkZq/4370_18212.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b09f122a69060bd30ee2e2746315e67c89ca94820984ed48153b42c1356f84eb"
-            },
-            {
-              "key": "933165778166ace551f994edb0a59010943fa2bd",
-              "node_id": "5877:21679",
-              "name": "Device=mobile, State=Filled, Type=Grey",
-              "description": "Ипользуется для Background Gray",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/Na9/s44/l4wSHOUMc6nRzBfZ/5877_21679.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=fcba60ec6000005099929bf525f138713e4d936c59210b71dc0eeaf04eb9552e"
-            },
-            {
-              "key": "9f1beefbb85d96f58d9981f299d612aaa0473527",
-              "node_id": "2263:7473",
-              "name": "Device=mobile, State=NonActive, Type=Default",
-              "description": "Ипользуется для Background Gray",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/i6L/Esw/6FjtoMmRnSb2Phho/2263_7473.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=14907211a52191a5e26599e20430b702f680f47d0aeb427a271ede532899286b"
-            },
-            {
-              "key": "bd02efb3feb4eb78e39083091a46b44c6062038f",
-              "node_id": "5877:21700",
-              "name": "Device=mobile, State=Hover, Type=Grey",
-              "description": "Ипользуется для Background Gray",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/MNa/3qT/DnO9BMszFVx4QIOW/5877_21700.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b0b5625352f62ce2afd0fd814e8811e4cdd35be4147e7b91dd2b2e3da92087f9"
-            },
-            {
-              "key": "d0042cdeb6b6e1dc7af8435eff8d5dd1eec2784c",
-              "node_id": "5877:21672",
-              "name": "Device=mobile, State=Default, Type=Grey",
-              "description": "Ипользуется для Background Gray",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/CzJ/Cfb/aiYbZv48Lu7PZ2G8/5877_21672.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=4ff027c6b6c0eb496dfa498ff33f651f2441a8b769c0ce4da354b56b3ae6b77d"
-            },
-            {
-              "key": "da3d106108458e0fccfc287cabc63f4aaf3c02fa",
-              "node_id": "5877:21619",
-              "name": "Device=desktop, State=Default, Type=Grey",
-              "description": "Ипользуется для Background Gray",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/mww/0VN/gsytHit9xcn0BglW/5877_21619.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=89b36f8f2fa376567b02aa55d9a89d20bf6d6f225799c8a2bc6be4284410a9b5"
-            },
-            {
-              "key": "dfdfa3b09a76f4083b6f16c2b732f6c936260e3a",
-              "node_id": "2261:5701",
-              "name": "Device=mobile, State=Default, Type=Default",
-              "description": "Ипользуется для Background Gray",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/28U/iqb/ejdDyyKMr2LjiENy/2261_5701.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=5349c912bb2646a4a8a55c4e5be1deaa28e5f978b7965edf8a67d85210a26c58"
-            },
-            {
-              "key": "fbb4f8b1acc24448915450f202836a2db500fa64",
-              "node_id": "2261:5021",
-              "name": "Device=desktop, State=Default, Type=Default",
-              "description": "Ипользуется для Background Gray",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/ged/j19/iusg6vqFXDThgxo3/2261_5021.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=147baa9c7077df967bdc81db87c8391214ac5bf4f821df53ed175a3532eb2853"
-            },
-            {
-              "key": "ff8e51797bbd5e1ac7b20ef2e4c54b6ee37d8951",
-              "node_id": "5877:21626",
-              "name": "Device=desktop, State=Filled, Type=Grey",
-              "description": "Ипользуется для Background Gray",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/lLJ/t3E/SpdqnCmOTy0dHKQ9/5877_21626.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=3f2b8ec73433a9deb09eb972b2a89e6fda6c3cd3da123d841912373c15b7083c"
-            },
-            {
-              "key": "ab88b42ce83569f54efa2a76dde80c5f34dbf717",
-              "node_id": "2263:7362",
-              "name": "Device=desktop, State=Error, Type=Default",
-              "description": "Ипользуется для Background Gray",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/T5o/AC1/71qTYJ2urxVQEWam/2263_7362.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=835440ae7b79677251833a057d42f71dd19a4f0c8accf5e2d86c40d7cd5fc917"
-            },
-            {
-              "key": "19541cf31e79bbfb0a0fc57257d7591ef235501f",
-              "node_id": "2263:7351",
-              "name": "Device=desktop, State=Filled, Type=Default",
-              "description": "Ипользуется для Background Gray",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/Thh/hAa/igFPHYsu4YoS1s1b/2263_7351.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=aa1f17f513be470392e29ae7d96ca06073ee4df55c4c475f3923bbe429d4d0de"
             },
             {
               "key": "070dd33b7f9a60da472f28d8cd618f006de0334a",
@@ -20316,81 +20197,200 @@
               "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/udz/ciX/kw4DbIjG9ilGVBTn/7945_29986.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=333d990bda4a2a533182898ee46cf3dae27ecffd6aa3d3ee2418e40aa4994c0d"
             },
             {
-              "key": "01f874024401f5ee8d899391003dab104c97526e",
-              "node_id": "5877:21686",
-              "name": "Device=mobile, State=NonActive, Type=Grey",
-              "description": "Ипользуется для Background Gray",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/cPu/NLZ/7MpwFokSgwePCIJk/5877_21686.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=0bdf0edbe617c28b339c5dda45c55f14f9bac119ad2438c90e3ca97592854cc9"
-            },
-            {
-              "key": "07f7b0a7b55a465c19b20b5e8574fed270a5f405",
-              "node_id": "5877:21640",
-              "name": "Device=desktop, State=Hover, Type=Grey",
-              "description": "Ипользуется для Background Gray",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/MFr/sGG/KxG2intjYLGymbcZ/5877_21640.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=a5fefc0ee72465ec8ea29f7620d51e75f3c5fcc7813c4f75b7c3449050f6bc9e"
-            },
-            {
-              "key": "1d61f4c44076a9eee924e1fb7d7c3c93e9b29de2",
-              "node_id": "5877:21693",
-              "name": "Device=mobile, State=Error, Type=Grey",
-              "description": "Ипользуется для Background Gray",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/jlM/TZE/Esiz8APnICbxladf/5877_21693.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=4452d5b2d2a151ebed91750d9d207119c05816cf27c9f9223a71b585cb691dc8"
-            },
-            {
-              "key": "1dd778ec8b04e38ced99aea5104918a1137d648d",
-              "node_id": "5877:21663",
-              "name": "Device=desktop, State=Active, Type=Grey",
-              "description": "Ипользуется для Background Gray",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/969/Wtp/lsJE9klLvgevWfI0/5877_21663.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=2cfdff53cd93e06aa5dcfbfe4cb8d6bdab136c61d09bddeef7e561924ced5b42"
-            },
-            {
-              "key": "318e5d9fbd3ac05e0e6d2dd03d44472a13cc77b2",
-              "node_id": "5877:21707",
-              "name": "Device=mobile, State=Typing, Type=Grey",
-              "description": "Ипользуется для Background Gray",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/5xO/3xe/6aQEG0p0hmb11NMC/5877_21707.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b4f8cf9e8edd4e27ce25d5120cc1055aebb95c7c0ea8d456603a02cfb78a27f0"
-            },
-            {
-              "key": "395eeaea4948af062954409bf55379518c3d55b1",
-              "node_id": "2263:7330",
-              "name": "Device=desktop, State=Typing, Type=Default",
-              "description": "Ипользуется для Background Gray",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/9Wk/WPZ/Gh7arPJDiA3pIg19/2263_7330.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=ae6617a2baf2e192341bd334147e608f04339c51fc49ccbdc55dc23c04fec814"
-            },
-            {
               "key": "40725a4b89e0402ae28f53aae3353e05a05f56e3",
               "node_id": "4370:18221",
               "name": "Device=mobile, State=Active, Type=Default",
               "description": "Ипользуется для Background Gray",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/IA8/SCr/isiuSNGEX3s5OpHD/4370_18221.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b5b2d5d13137504b463df9cd10b03a4657c04423d69a076b1c1e22f0f287701e"
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/Cho/7dS/JyL5G7yF9wTMIdhc/4370_18221.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=324d0715b6f58a5585b53cd0f400f1a77686240c117f13ac972ab35859cd9d76"
             },
             {
               "key": "c152203da4d68929a18062a05528781d34b41dd8",
               "node_id": "2263:7433",
               "name": "Device=mobile, State=Typing, Type=Default",
               "description": "Ипользуется для Background Gray",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/iho/4ao/bzB6ytdBMAjMaKr7/2263_7433.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=473e9c6153d03770beb5561b015676ec8232208dce646c527e47dbc8855ad1da"
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/FXP/Pxn/MpJcp7SZH0ypRuYA/2263_7433.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=94d27dc78b3c3d1708c746e7237b7e51efaec2e42b563d2ab2f4c3fa291b1676"
             },
             {
               "key": "c1adc76427724eb2b7a6f40bbb113bbf0db30ae1",
               "node_id": "2261:5712",
               "name": "Device=desktop, State=Hover, Type=Default",
               "description": "Ипользуется для Background Gray",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/WSo/43f/CUwEMAdN0VZJ0KNH/2261_5712.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=74f8e6d8e230d6041b19eb8ae1fc101d9dee3946b0df838fac2bb8b0b9697230"
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/Blq/B8k/I7ggRoUVdSWiaXhi/2261_5712.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e248a8bf59f860be2a437a9660952846e445afcff6b3f17820bbbae55123d09c"
             },
             {
               "key": "d64942bf2951b89824bd64e900b11eeded960256",
               "node_id": "5877:21716",
               "name": "Device=mobile, State=Active, Type=Grey",
               "description": "Ипользуется для Background Gray",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/CVA/fDZ/rgI2uUCtWtAqep55/5877_21716.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=bade78f22b87fd3f892b6900a5003bbdf02cafc78ad995822e56eefee366fae1"
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/6zp/M9P/RdJbYklQpwskkeis/5877_21716.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=f54c75136cf98e89bd77a79ed5684a0cedab5b77049fc2177098daeced7b389a"
+            },
+            {
+              "key": "01f874024401f5ee8d899391003dab104c97526e",
+              "node_id": "5877:21686",
+              "name": "Device=mobile, State=NonActive, Type=Grey",
+              "description": "Ипользуется для Background Gray",
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/WpH/yKj/C9OgZEy9fGWXUbv2/5877_21686.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=c82ca128684f1e6beeccda300ee40042dd16107512408e392c7cda3c2c37d9a1"
+            },
+            {
+              "key": "07f7b0a7b55a465c19b20b5e8574fed270a5f405",
+              "node_id": "5877:21640",
+              "name": "Device=desktop, State=Hover, Type=Grey",
+              "description": "Ипользуется для Background Gray",
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/Fb4/IDW/OFlXVK0vyBqKVJUw/5877_21640.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=3d5679b06e9582ee90326f4c903fcfff38e86a21333965f4a97d4d3b0d9d945b"
+            },
+            {
+              "key": "14ab1fad978284fcaf95c8793c706c0a5fc7c11e",
+              "node_id": "2263:7451",
+              "name": "Device=mobile, State=Filled, Type=Default",
+              "description": "Ипользуется для Background Gray",
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/niz/vRT/5U7xBj123WPezMBo/2263_7451.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=c9acac0bddfb32c10abd5be8a334a3b25e173eaf4b0ef396773cf228309847b6"
+            },
+            {
+              "key": "185cc9cd86f890e31b965838317f8b2899032d29",
+              "node_id": "5877:21647",
+              "name": "Device=desktop, State=NonActive, Type=Grey",
+              "description": "Ипользуется для Background Gray",
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/btv/XGA/bNC0g6XRcLa74Tjz/5877_21647.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=19397f3d46296bf7a4dafcdc2fee939ef7a50ee4ce234155770ae5c97150a648"
+            },
+            {
+              "key": "19541cf31e79bbfb0a0fc57257d7591ef235501f",
+              "node_id": "2263:7351",
+              "name": "Device=desktop, State=Filled, Type=Default",
+              "description": "Ипользуется для Background Gray",
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/R4f/TPD/Nhucb0oEMmzVCw7z/2263_7351.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e8266f8fb4c86c5225d9014d57dff9e0ee2b41a775a4bf21f095710543de08ad"
+            },
+            {
+              "key": "1d61f4c44076a9eee924e1fb7d7c3c93e9b29de2",
+              "node_id": "5877:21693",
+              "name": "Device=mobile, State=Error, Type=Grey",
+              "description": "Ипользуется для Background Gray",
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/l8R/60r/VzIuGxfbZtOpw6aa/5877_21693.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=90117e5de9e5c9363ef3d6ef8eabd9c60fe29e1fe7e552d386a381e51a982fb3"
+            },
+            {
+              "key": "1dd778ec8b04e38ced99aea5104918a1137d648d",
+              "node_id": "5877:21663",
+              "name": "Device=desktop, State=Active, Type=Grey",
+              "description": "Ипользуется для Background Gray",
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/Pow/lJk/C7EUKmPuyfW8JvQv/5877_21663.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=abb2c5ea8f426a8d15cf721143afcd5918a9f8930c2623a68605c17d21111704"
+            },
+            {
+              "key": "318e5d9fbd3ac05e0e6d2dd03d44472a13cc77b2",
+              "node_id": "5877:21707",
+              "name": "Device=mobile, State=Typing, Type=Grey",
+              "description": "Ипользуется для Background Gray",
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/1gV/Loj/cLAdfBkcKansB7SY/5877_21707.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b85ce6dfe7cd5ddec15b2c4bbc72cf3250981faca4c10fd8ccc6db21297c8887"
+            },
+            {
+              "key": "38336ff29b97be1eba40266bab40da00d9ccb878",
+              "node_id": "2263:7376",
+              "name": "Device=desktop, State=NonActive, Type=Default",
+              "description": "Ипользуется для Background Gray",
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/81n/Bfs/p64PsJm05huDX6BG/2263_7376.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=2e736096dbf2a2f1529489dd327e8cc76d686bee0622747a66d3f190697c92de"
+            },
+            {
+              "key": "395eeaea4948af062954409bf55379518c3d55b1",
+              "node_id": "2263:7330",
+              "name": "Device=desktop, State=Typing, Type=Default",
+              "description": "Ипользуется для Background Gray",
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/47C/hSa/M3e544Hsb2u1YpVh/2263_7330.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=09b771dfe22332d81571c00d4539562d52c406821ccafd82578c5dc577d85e18"
+            },
+            {
+              "key": "554991b1bdac62cd646a9186854af8e24775310c",
+              "node_id": "2263:7462",
+              "name": "Device=mobile, State=Error, Type=Default",
+              "description": "Ипользуется для Background Gray",
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/PjZ/JaU/hhZibh8RqUJ403Ls/2263_7462.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=163d6f73417e17691babdc6c99b95f455b0d9f761fc7a917a2723cfd5d4f36b6"
+            },
+            {
+              "key": "7a3115309c1f441c968e0fcf18e7df366f136386",
+              "node_id": "5877:21654",
+              "name": "Device=desktop, State=Typing, Type=Grey",
+              "description": "Ипользуется для Background Gray",
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/4ul/8cy/zhT9OB8a09pPUGOF/5877_21654.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=03f8075099a37ac49545445b1cdcdc1bda698f62e5514ff0e2513dcb754fb3f7"
+            },
+            {
+              "key": "82005acf6531779a2bb3fc49e2a7f66832892faa",
+              "node_id": "5877:21633",
+              "name": "Device=desktop, State=Error, Type=Grey",
+              "description": "Ипользуется для Background Gray",
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/Pkd/jFX/HP8q4VXF1DoPM0LI/5877_21633.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=2044677074b8c986f1ae73c295dececba0efdc0f731cdda6f4c9d5de10f3f5e7"
+            },
+            {
+              "key": "8ade46d1d37072dafea7e4b96250b53f935c196e",
+              "node_id": "4370:18212",
+              "name": "Device=desktop, State=Active, Type=Default",
+              "description": "Ипользуется для Background Gray",
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/znw/PfD/EIx164eWZfw4ei2T/4370_18212.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=1b7edae274aeae6b6db3d25fe4b6e2b159d865a614a49a4e5094939096bba698"
+            },
+            {
+              "key": "933165778166ace551f994edb0a59010943fa2bd",
+              "node_id": "5877:21679",
+              "name": "Device=mobile, State=Filled, Type=Grey",
+              "description": "Ипользуется для Background Gray",
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/HP5/1cu/atMgvhWTP4iAAzYH/5877_21679.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=6f21fea43030f6d00e8e0ebdfcb5ca8191abdca50722bd1157729cd817b70e1c"
+            },
+            {
+              "key": "9f1beefbb85d96f58d9981f299d612aaa0473527",
+              "node_id": "2263:7473",
+              "name": "Device=mobile, State=NonActive, Type=Default",
+              "description": "Ипользуется для Background Gray",
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/n4f/13Z/2G6kv0H1rrjitYE0/2263_7473.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=4414c25d162c936bb5bc343f8f0ccdc85bd23670b2bc94644141c744e742914b"
+            },
+            {
+              "key": "ab88b42ce83569f54efa2a76dde80c5f34dbf717",
+              "node_id": "2263:7362",
+              "name": "Device=desktop, State=Error, Type=Default",
+              "description": "Ипользуется для Background Gray",
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/2V2/uVj/1fAUsrdqVWHUEaCc/2263_7362.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=487a5d2fc6f33d677c93a118821db6bbfff7e1b779e48def2bdd88d55d0ed079"
+            },
+            {
+              "key": "bd02efb3feb4eb78e39083091a46b44c6062038f",
+              "node_id": "5877:21700",
+              "name": "Device=mobile, State=Hover, Type=Grey",
+              "description": "Ипользуется для Background Gray",
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/Aj2/QLc/u0IaXRMUdVzArW6Q/5877_21700.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=c0c133dfd2856db244407529286a0f18fc11385d302a9ade2cace32014503697"
+            },
+            {
+              "key": "d0042cdeb6b6e1dc7af8435eff8d5dd1eec2784c",
+              "node_id": "5877:21672",
+              "name": "Device=mobile, State=Default, Type=Grey",
+              "description": "Ипользуется для Background Gray",
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/7Zo/gyH/7lYJ8ipzrYeKiBJ5/5877_21672.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=268b92c4e279396e61e80bccec6d12c71eac2f0af54407f62f7cbfa6e3926dae"
+            },
+            {
+              "key": "da3d106108458e0fccfc287cabc63f4aaf3c02fa",
+              "node_id": "5877:21619",
+              "name": "Device=desktop, State=Default, Type=Grey",
+              "description": "Ипользуется для Background Gray",
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/Ry0/o2e/tugwblA9qirtd3oi/5877_21619.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=51b5cc2c35c9d9afb5b741b034f387abca5784dbd0ee68173b893cceb9afe564"
+            },
+            {
+              "key": "dfdfa3b09a76f4083b6f16c2b732f6c936260e3a",
+              "node_id": "2261:5701",
+              "name": "Device=mobile, State=Default, Type=Default",
+              "description": "Ипользуется для Background Gray",
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/XmF/zth/FD7qY7gXKLRMq0nf/2261_5701.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=ccb7c1148110510279f2be57ef487f475671f484046b0ef11b8cafd3ca6c47b2"
+            },
+            {
+              "key": "fbb4f8b1acc24448915450f202836a2db500fa64",
+              "node_id": "2261:5021",
+              "name": "Device=desktop, State=Default, Type=Default",
+              "description": "Ипользуется для Background Gray",
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/iIq/Yhy/wJVkozIG64URDbc9/2261_5021.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=ace4f73ab7b23841f46979e0bd7385367d88697e52f310f31e04a001cb45bcd1"
             },
             {
               "key": "fe7abc78e57f1bc64e3c139ec7254fd3c910f131",
               "node_id": "2263:7409",
               "name": "Device=mobile, State=Hover, Type=Default",
               "description": "Ипользуется для Background Gray",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/KOB/rAc/jdLp0F0blSryAB9N/2263_7409.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=345ee4dbbc245df1c763dad01c8e6023ed846326412cecf853ce991205a1cde5"
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/gzg/0LI/Pbz5ZOnW6yYWaRHu/2263_7409.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=f3a6bd0ae7efe37382c0e188909a336be8f06d9a69587c6ae9646e6327a1bf5a"
+            },
+            {
+              "key": "ff8e51797bbd5e1ac7b20ef2e4c54b6ee37d8951",
+              "node_id": "5877:21626",
+              "name": "Device=desktop, State=Filled, Type=Grey",
+              "description": "Ипользуется для Background Gray",
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/zA2/1kv/Zq6vm1Av3cIzJyE4/5877_21626.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=7fb4c614d25a6fe8a4dde79c7fab78b0d3706ff300c086602ab4f12856b4f33a"
             }
           ],
           "sets": 2,
