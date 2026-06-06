@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-05T09:24:22.337Z",
+  "generated_at": "2026-06-06T08:21:00.542Z",
   "version": "DS 4.0",
-  "total_components": 4794,
+  "total_components": 4795,
   "total_sets": 281,
   "total_variables": 0,
   "tokens": {
@@ -14,7 +14,7 @@
     {
       "source": "Tokens & Atoms",
       "file_key": "cXSRA1TTtSxE7w8QA2VQud",
-      "total_components": 3426,
+      "total_components": 3427,
       "total_sets": 109,
       "categories": [
         {
@@ -11866,7 +11866,7 @@
               "node_id": "1339:2833",
               "name": "Country=cn, Size=48 px",
               "description": "",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/Rxq/us4/MRgfhlzwvbKTQ1UO/1339_2833.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=40fe0d46523fc613ce8da3b78f498fbcc20972ecab58d06285ca6298cbdf1d89"
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/PdT/5nO/xckHfvtN8p2ZSxLH/1339_2833.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=7317ddcd66a49e83ceb5806916c45d8981e8f2ddb007a7de8f9c63405dc3c23d"
             },
             {
               "key": "7c8170e8c2163425800f7cb7d1e3d3e11959804d",
@@ -11897,13 +11897,6 @@
               "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/BLV/quG/J5cRQBnljsRDDKe5/1330_2710.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=8aa0d20289f4dc64877aeda7e9e7690387ef364e0bbaccd0ef538e12bd4e4000"
             },
             {
-              "key": "0e1ff720b998e2399795abf58278133edabc28b8",
-              "node_id": "1339:2832",
-              "name": "Country=eu, Size=48 px",
-              "description": "",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/zVP/e9b/2Mh3nHF869tekJ6a/1339_2832.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=dadbcf721a9f729729b30f7a195c7d5d284ba34892eec43b7ba7552ce1fa9b8a"
-            },
-            {
               "key": "174927582e7bf70340d796836b31c283ef319c68",
               "node_id": "2854:8093",
               "name": "Type=XLS, Breakpoint=24px",
@@ -11923,13 +11916,6 @@
               "name": "Type=Empty, Breakpoint=24px",
               "description": "",
               "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/7Ji/zzs/znPCsK7hytqDy7My/2864_5322.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=7ebc95c6e2d330b26f32a88029664545f6f0a8b0519463b7e4367d42a30c31c7"
-            },
-            {
-              "key": "1f69a29cb1c99ce5f31a9aa8a6e4db0f8f281edb",
-              "node_id": "1339:2830",
-              "name": "Country=ru, Size=48 px",
-              "description": "",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/OAb/UF5/4lZ4MPo3w3qjMIjz/1339_2830.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=86e9eae606eccc034acbbc1e7afe5eca7f3fed74af040ee0b636f880c0b7d745"
             },
             {
               "key": "30cab5d0c149b962644b141ed3fb7b4df09841ea",
@@ -12009,13 +11995,6 @@
               "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/Yvm/iwV/AyBLfmW3XRA0NUZP/2854_8081.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=8fa4a578a77138a315abd31a82d1df634e21c50f246097cfaa3221b422ffe924"
             },
             {
-              "key": "61384fd19c471dc0e20e303820d2557f1b2053ae",
-              "node_id": "7894:16570",
-              "name": "Country=Switzerland, Size=48 px",
-              "description": "",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/qLR/RGR/cv6IwFdG9BH6NPlH/7894_16570.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=1a152551d8b4330b9eebf0c7af4ab4f8b1cba2a86853746d7fc096a0b3b864de"
-            },
-            {
               "key": "66c8a00f0993d7c54cf68cf653bd970b0b57c84f",
               "node_id": "1330:2725",
               "name": "Type=MP3, Breakpoint=32px",
@@ -12048,14 +12027,7 @@
               "node_id": "2988:2535",
               "name": "Country=us, Size=24 px",
               "description": "",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/Kxp/Z2E/PUPY1X9U9aVvsjzz/2988_2535.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=760f83c7edb1e94ef1ecd2ae5d487daa4d8b62ae130a8797535b189af94fa92e"
-            },
-            {
-              "key": "af66b59f4206ca21cc1fa6a3389088ed5fbd6d67",
-              "node_id": "3335:542",
-              "name": "Country=eu, Size=24 px",
-              "description": "",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/nuR/4iS/fRo5tfEX7YitPsY5/3335_542.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=85e645e6b3356e3cad698395ba8b7355fb807c5c0bd301ec3de7b1b315704f6e"
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/7Q9/zNC/2fM3TJDlmzmGkUJk/2988_2535.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=cde59e6318d000826abaad575603a6f57f4dc11bff8df9b53b3a88ca8fdd6f74"
             },
             {
               "key": "b2d29e3108fae3ab3ca4b886da450badf438c3e4",
@@ -12098,13 +12070,6 @@
               "name": "Type=MP3, Breakpoint=24px",
               "description": "",
               "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/Rjw/IIv/ho7N9v5uK2tsqeIR/2854_8072.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=7ca7dd09a1187d8be65435bf7729beda9ef12c6a2be38bbb582a4742efcf95e9"
-            },
-            {
-              "key": "fdf3948851393de4c95acc36033093bed220d344",
-              "node_id": "7869:2126",
-              "name": "Country=uk 2, Size=24 px",
-              "description": "",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/InX/mQc/qEU0aM8FVRwXNFhW/7869_2126.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=bfb91d928fcebc0266c4f475563fb81ec7cc322b8eca17a58adbb2a0b45bd68f"
             },
             {
               "key": "142ee47cb057cb72d3261b70ce64101e72c34dec",
@@ -13836,81 +13801,11 @@
               "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/WM5/K0A/gaGv0L66ktRLPMGA/1762_3439.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=07cde0fd74a9a9155046d1f6d1248f9dcab4e5cb76bf47292321d28d0d688491"
             },
             {
-              "key": "30d97d5e4899cc618b28762f50a46c977d795c83",
-              "node_id": "8009:4277",
-              "name": "Country=eu, Size=32 px",
-              "description": "",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/IUt/xCP/y08N4KNLRjxz5ktf/8009_4277.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=19e6ab923057511daf814fea2171cb926d5b8c01ab691e2cc354efdea51178e5"
-            },
-            {
-              "key": "51d997ecfb7756a05864cb9057663923ec1ba1f7",
-              "node_id": "8009:4257",
-              "name": "Country=ru, Size=32 px",
-              "description": "",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/OOs/dIa/N3SpBv8o0HgJ9CGz/8009_4257.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=4e803f2e83545f14b9f52b940ba442c2c95d3d863da98ba4614261a7b7b8c833"
-            },
-            {
-              "key": "e8e8365a65cdbbe10d9bbbc7088feb1c937218e6",
-              "node_id": "8009:4261",
-              "name": "Country=us, Size=32 px",
-              "description": "",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/64t/41Z/NqJqzf16is8RjvPf/8009_4261.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=154235c9003845dc79d3cc27b671ec7d0e2e1eabdd1c946f607ea3998efc3ffc"
-            },
-            {
-              "key": "f6341e99ea4aa027a2046b30708862ed29eafaf4",
-              "node_id": "8009:4292",
-              "name": "Country=cn, Size=32 px",
-              "description": "",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/xfO/cAl/hvuso5EXjP8RzBkd/8009_4292.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=d49858f76c424d7bec5db3fa4c15cafbc0fe96334b84dd9d05ba81ce388a1722"
-            },
-            {
-              "key": "3b5067750bade67c59210e1d8a907b8bbb1c85ac",
-              "node_id": "8009:4314",
-              "name": "Country=Switzerland, Size=32 px",
-              "description": "",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/mXk/pKE/tiY39EDhQPq75jLd/8009_4314.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=0caa03ae4f27ecf4c5449b29203394a607aa0a3b8fda29bf1fd754ae812e67b1"
-            },
-            {
-              "key": "8f9e2a9c3af39bab54a81c58e5345733736c2f95",
-              "node_id": "8009:4300",
-              "name": "Country=uk 2, Size=32 px",
-              "description": "",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/3Sd/6tS/ihrgG8DjHu3zfR4E/8009_4300.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=d9cd54d6849ff5e51dbca84944c0434bee0e771f7daaa74f720f675b79d98715"
-            },
-            {
-              "key": "3f1a41208dc95d180edaa22c28e3ee15c7f40c5c",
-              "node_id": "2988:2531",
-              "name": "Country=ru, Size=24 px",
-              "description": "",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/jHu/Tmp/8zkQLzHDr4KzRw4A/2988_2531.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=af0ab753a90854ad987ca0f499edefc721be7851a7613a827e1edc5330ed1fc9"
-            },
-            {
-              "key": "7185a694ddb06c666ea148bda39f6fc58d676fa2",
-              "node_id": "1339:2831",
-              "name": "Country=us, Size=48 px",
-              "description": "",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/Y4x/x5T/U0og3G8tiyDmsln6/1339_2831.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=f2c33a891feffd00a51d34a96a824bb7d40eff6150ee88426083df59e5d5b065"
-            },
-            {
               "key": "81d9231f3c4547241ea5b47209646954ca98988b",
               "node_id": "7894:16646",
               "name": "Country=Switzerland, Size=24 px",
               "description": "",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/AM4/ahJ/4tk4Pe83QLzTvL3A/7894_16646.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=ee63e4f6a4e808a467e3f833ef173ae6f599247a43e5a7ad1d1a5b07de6177fb"
-            },
-            {
-              "key": "c7398387091a3a62f99b2bbf35f2c315ae626c02",
-              "node_id": "3335:570",
-              "name": "Country=cn, Size=24 px",
-              "description": "",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/4kB/VBy/Gkw17rG3RYAefMJr/3335_570.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=36baef2f107e5ed79e4af2039e5509c440188b54b9f25de4cb7da4514d054f05"
-            },
-            {
-              "key": "cfcdbbaec9a80d6b56181d2a9636fdd56480be9f",
-              "node_id": "7869:1284",
-              "name": "Country=uk 2, Size=48 px",
-              "description": "",
-              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/Ovb/orS/r0DwYCni55iGNCa5/7869_1284.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=ccaef928499e716df1215682ce20a63a3002b98a2febeec8d1980779587ac756"
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/E1f/ISr/5Ema9zhdMh0bnopf/7894_16646.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=2c975e73b9045e59718d28d99159db4d4a103e1dd31854349aeb6f6c0359a72c"
             },
             {
               "key": "078a50807b31f1746a281442c769745528d1a769",
@@ -15787,10 +15682,122 @@
               "name": "Type=reply, size=16px",
               "description": "",
               "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/7VF/ENV/ral6UZd9kgZycEj8/6183_2669.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=da6655d09a9e44d784407486b0794b3c259a96a19d71f24561ad278ea845ba58"
+            },
+            {
+              "key": "0e1ff720b998e2399795abf58278133edabc28b8",
+              "node_id": "1339:2832",
+              "name": "Country=eu, Size=48 px",
+              "description": "",
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/Ciz/oMx/bdphqE5ZMgX69Suu/1339_2832.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=3a54615642e9d0da4024280cc659a640963ac5b0fd836c8a70a85e9c86febf48"
+            },
+            {
+              "key": "1f69a29cb1c99ce5f31a9aa8a6e4db0f8f281edb",
+              "node_id": "1339:2830",
+              "name": "Country=ru, Size=48 px",
+              "description": "",
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/ogV/djg/SFzYEUGn8F4AkHzf/1339_2830.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=d93a622cc19de385d2da58c77be77d6f84b44f73a56cbb29fb797bdac2a15b8d"
+            },
+            {
+              "key": "30d97d5e4899cc618b28762f50a46c977d795c83",
+              "node_id": "8009:4277",
+              "name": "Country=eu, Size=32 px",
+              "description": "",
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/584/qjT/JJzULRE6obU8lQ0T/8009_4277.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=8e03db0a9dabdb19c767d1f380e1f62e5463205d7c107b417886361ed834931e"
+            },
+            {
+              "key": "3b5067750bade67c59210e1d8a907b8bbb1c85ac",
+              "node_id": "8009:4314",
+              "name": "Country=Switzerland, Size=32 px",
+              "description": "",
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/G1Z/MU5/Zv2OzeXZeSgxVaFS/8009_4314.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=6e45bbcd62db63c262a03a9465e4c6f87ee29d6288e805a01f126aaa6f5d8525"
+            },
+            {
+              "key": "3f1a41208dc95d180edaa22c28e3ee15c7f40c5c",
+              "node_id": "2988:2531",
+              "name": "Country=ru, Size=24 px",
+              "description": "",
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/sEO/i66/QxfZpXmtIHLmcRpF/2988_2531.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=4cff223a7494304a3b05211481f11a69c5f59123873663a7ef314226005a0d33"
+            },
+            {
+              "key": "51d997ecfb7756a05864cb9057663923ec1ba1f7",
+              "node_id": "8009:4257",
+              "name": "Country=ru, Size=32 px",
+              "description": "",
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/Fvv/nVz/eorefxLlUq2E4yoW/8009_4257.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=d56da7836cce389d79a08ad4a62dc0abe3abfd0a608323b1f7b0bb3f9d8b5773"
+            },
+            {
+              "key": "61384fd19c471dc0e20e303820d2557f1b2053ae",
+              "node_id": "7894:16570",
+              "name": "Country=Switzerland, Size=48 px",
+              "description": "",
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/Pco/CMB/FnKvFl5ISfgW4BeB/7894_16570.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=93ad3971a18f4889d165642dee91c9009045c8ef3f43a5ea0162ffc047f1707a"
+            },
+            {
+              "key": "7185a694ddb06c666ea148bda39f6fc58d676fa2",
+              "node_id": "1339:2831",
+              "name": "Country=us, Size=48 px",
+              "description": "",
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/9C2/Ih3/sWf3ToFH8rE1Yhb2/1339_2831.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=128771c8e50ef247b887997869dfac71d28398c869c44580c7929eb599aabc85"
+            },
+            {
+              "key": "8c9fc55575d02027a2bfdd4702e7388fcb7b7b77",
+              "node_id": "2596:1726",
+              "name": "Country=uk, Size=24 px",
+              "description": "",
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/qLa/ow4/VfbkqwAe75yXk0U2/2596_1726.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=8e47bfeb6cfe8b37fd87941c2e7e64d696e45fd59ab131b4ad73d30e031d49a0"
+            },
+            {
+              "key": "8f9e2a9c3af39bab54a81c58e5345733736c2f95",
+              "node_id": "8009:4300",
+              "name": "Country=uk 2, Size=32 px",
+              "description": "",
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/faI/rTm/m6WouFw9W0eZgHvn/8009_4300.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=96ed6172020968c75a23140593f3ba49865b6209c34dacee91c878437c7854b2"
+            },
+            {
+              "key": "af66b59f4206ca21cc1fa6a3389088ed5fbd6d67",
+              "node_id": "3335:542",
+              "name": "Country=eu, Size=24 px",
+              "description": "",
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/jpD/Vut/scd4NR8lJVTl3IFm/3335_542.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=3705f41a19c11d1ccd76e0984d3563a2bbff434ac08119dce1a936f3d9c95a41"
+            },
+            {
+              "key": "c7398387091a3a62f99b2bbf35f2c315ae626c02",
+              "node_id": "3335:570",
+              "name": "Country=cn, Size=24 px",
+              "description": "",
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/03U/o9E/VB1lb1FaFZFKHUSM/3335_570.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=ef916e7f00ad2a6f1c6d05087487d5313b9e90dfa5b48e6d27c3f66724af7cc9"
+            },
+            {
+              "key": "cfcdbbaec9a80d6b56181d2a9636fdd56480be9f",
+              "node_id": "7869:1284",
+              "name": "Country=uk 2, Size=48 px",
+              "description": "",
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/O5v/0nW/vOu6hyiq0puCczHX/7869_1284.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=7d87ee689167ee1981c5be2357b84d6bc020858845a59703a4c5fe36b46f7dac"
+            },
+            {
+              "key": "e8e8365a65cdbbe10d9bbbc7088feb1c937218e6",
+              "node_id": "8009:4261",
+              "name": "Country=us, Size=32 px",
+              "description": "",
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/lBK/Xl7/fAEZsXSoaz7xTjxc/8009_4261.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=8c14ce23fc4d09076e8be8478d1b56e75933cd130ee4e2d7f4b56cda7942b85d"
+            },
+            {
+              "key": "f6341e99ea4aa027a2046b30708862ed29eafaf4",
+              "node_id": "8009:4292",
+              "name": "Country=cn, Size=32 px",
+              "description": "",
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/SdF/tC2/jZpIcpqzFyilAxJj/8009_4292.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=4ebcb25a6f0994d7dc1eff31a59474091b22b83e8c0cea0e908e51f0799ff44c"
+            },
+            {
+              "key": "fdf3948851393de4c95acc36033093bed220d344",
+              "node_id": "7869:2126",
+              "name": "Country=uk 2, Size=24 px",
+              "description": "",
+              "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/h7Z/yYW/tNTDFKp4IPdbTksL/7869_2126.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=bd960e6c1dc5b73647f9681c320eb8b843c7a5824692e69e9ed0f8a115844ad3"
             }
           ],
           "sets": 11,
-          "standalone": 587,
+          "standalone": 588,
           "source": "Tokens & Atoms"
         },
         {
@@ -33854,7 +33861,7 @@
             {
               "key": "d569db6ea272b65f0cef4c4cd991dfceb093b4b8",
               "node_id": "15293:30432",
-              "name": "Insert front [Вставь сюда изображение]",
+              "name": "Insert front [Встав�� сюда изображение]",
               "description": "",
               "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/LkV/Cvs/FBhyfBL6g26kZAD7/15293_30432.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=5f10b51f9506813f0366d2724fb07cc7b455f43885cb32894328bb67a49f64ae"
             },
