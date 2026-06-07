@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-06T08:21:00.542Z",
+  "generated_at": "2026-06-07T08:42:07.191Z",
   "version": "DS 4.0",
   "total_components": 4795,
   "total_sets": 281,
@@ -33861,7 +33861,7 @@
             {
               "key": "d569db6ea272b65f0cef4c4cd991dfceb093b4b8",
               "node_id": "15293:30432",
-              "name": "Insert front [Встав�� сюда изображение]",
+              "name": "Insert front [Вставь сюда изображение]",
               "description": "",
               "thumbnail_url": "https://s3-alpha.figma.com/checkpoints/LkV/Cvs/FBhyfBL6g26kZAD7/15293_30432.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCSEJVQQGV%2F20260604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260604T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=5f10b51f9506813f0366d2724fb07cc7b455f43885cb32894328bb67a49f64ae"
             },
